@@ -76,7 +76,7 @@ class ViewController: UIViewController {
 //        let tapSecond = UITapGestureRecognizer(target: self,
 //                                               action: #selector(self.secondChangeCurrency(_:)))
 //        btnToView.addGestureRecognizer(tapSecond)
-//   
+//
         firstCurrencyAmountTextField.addTarget(self,
                                                action: #selector(starOperation (amountTextField:)), for: .editingChanged)
         
@@ -140,8 +140,8 @@ class ViewController: UIViewController {
         guard let destinationCurrency = self.secondCurrencyLabel.text else { return }
         let rateSource = UserDefaults.standard.double(forKey: "rateSource")
         var rateDestination :Double = 0
-        
-        for currency in self.currencies! {
+        guard let myCurrencies = self.currencies else {return}
+        for currency in myCurrencies {
             if currency.description == destinationCurrency {
                 rateDestination = currency.rate
             }
