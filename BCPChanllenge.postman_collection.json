@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "3311479c-d12c-41ea-817d-7b7c00d98ccb",
+		"name": "BCPChanllenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/getCurrency",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/getCurrency",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"getCurrency"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/getBuyCurrency",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"getBuyCurrency"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "[\n    {\n        \"country\": \"European Union\",\n        \"description\": \"Euro\",\n        \"image\": \"https://www.caracteristicas.co/wp-content/uploads/2017/02/union-europea-e1561670170942.jpg\",\n        \"symbol\": \"EUR\",\n        \"rate\": 1,\n        \"sell\": 1.1,\n        \"buy\" : 1\n    },\n    {\n        \"country\": \"United States\",\n        \"description\": \"Dolar\",\n        \"image\": \"https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg\",\n        \"symbol\": \"USD\",\n        \"rate\": 1.22,\n         \"sell\": 1.28,\n        \"buy\" : 1.22\n    },\n    {\n        \"country\": \"Japan\",\n        \"description\": \"Yen\",\n        \"image\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg/220px-Flag_of_Japan_%281870%E2%80%931999%29.svg.png\",\n        \"symbol\": \"JPY\",\n        \"rate\": 127.83,\n        \"sell\": 128.82,\n        \"buy\" : 127.83\n    },\n    {\n        \"country\": \"United Kingdom\",\n        \"description\": \"Libra\",\n        \"image\": \"https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png\",\n        \"symbol\": \"GBP\",\n        \"rate\": 0.71314,\n        \"sell\": 0.71354,\n        \"buy\" : 0.71314\n    },\n    {\n        \"country\": \"Switzerland\",\n        \"description\": \"Switzerland\",\n        \"image\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/1200px-Flag_of_Switzerland_%28Pantone%29.svg.png\",\n        \"symbol\": \"CHF\",\n        \"rate\": 1.09,\n        \"sell\": 1.10,\n        \"buy\" : 1.09\n    },\n    {\n        \"country\": \"Canada\",\n        \"description\": \"Dolar Canadiense\",\n        \"image\": \"https://image.freepik.com/vector-gratis/ilustracion-bandera-canada_53876-27114.jpg\",\n        \"symbol\": \"CAD\",\n        \"rate\": 1.53,\n         \"sell\": 1.55,\n        \"buy\" : 1.53\n    },\n    {\n        \"country\": \"Peru\",\n        \"description\": \"Soles\",\n        \"image\": \"https://cdn.britannica.com/48/3448-050-1EFC8CF3/Flag-Peru.jpg\",\n        \"symbol\": \"PEN\",\n        \"rate\": 4.43,\n        \"sell\": 4.45,\n        \"buy\" : 4.43\n    }\n]"
+				}
+			]
+		}
+	]
+}
