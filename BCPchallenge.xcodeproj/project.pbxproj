@@ -3,18 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96708B1D25E35DF600014906 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96708B1C25E35DF600014906 /* Currency.swift */; };
+		96837C3F25E35EE10024A2A3 /* CurrencyChangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96837C3D25E35EE10024A2A3 /* CurrencyChangeCell.swift */; };
+		96837C4025E35EE10024A2A3 /* CurrencyChangeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96837C3E25E35EE10024A2A3 /* CurrencyChangeCell.xib */; };
+		96837C7025E3FCEE0024A2A3 /* ListCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96837C6F25E3FCEE0024A2A3 /* ListCurrencyViewController.swift */; };
+		96984D6125E44F9300C9DD61 /* ListCurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96984D6025E44F9300C9DD61 /* ListCurrencyViewModel.swift */; };
+		96984D6925E4968B00C9DD61 /* ConversionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96984D6825E4968B00C9DD61 /* ConversionData.swift */; };
+		96BE9DDC25E4106A009504CD /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE9DDB25E4106A009504CD /* AlertMessage.swift */; };
+		96BE9DDF25E410A3009504CD /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE9DDE25E410A3009504CD /* NetworkError.swift */; };
+		96BE9DE525E41115009504CD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE9DE425E41115009504CD /* Constants.swift */; };
+		96BE9DEC25E41D24009504CD /* CurrencyServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE9DEB25E41D24009504CD /* CurrencyServices.swift */; };
 		96F59EAB25E2F794000563BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F59EAA25E2F794000563BC /* AppDelegate.swift */; };
 		96F59EAF25E2F794000563BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F59EAE25E2F794000563BC /* ViewController.swift */; };
 		96F59EB225E2F794000563BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F59EB025E2F794000563BC /* Main.storyboard */; };
 		96F59EB425E2F799000563BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F59EB325E2F799000563BC /* Assets.xcassets */; };
 		96F59EB725E2F799000563BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F59EB525E2F799000563BC /* LaunchScreen.storyboard */; };
+		A56CACF77D256166A45E9D6A /* Pods_BCPchallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606E58170237EA7099FA253F /* Pods_BCPchallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11929F7311AF471AF692964A /* Pods-BCPchallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCPchallenge.debug.xcconfig"; path = "Target Support Files/Pods-BCPchallenge/Pods-BCPchallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		3C6D42E7CFC8396C082AA100 /* Pods-BCPchallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCPchallenge.release.xcconfig"; path = "Target Support Files/Pods-BCPchallenge/Pods-BCPchallenge.release.xcconfig"; sourceTree = "<group>"; };
+		606E58170237EA7099FA253F /* Pods_BCPchallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BCPchallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96708B1C25E35DF600014906 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		96837C3D25E35EE10024A2A3 /* CurrencyChangeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyChangeCell.swift; sourceTree = "<group>"; };
+		96837C3E25E35EE10024A2A3 /* CurrencyChangeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyChangeCell.xib; sourceTree = "<group>"; };
+		96837C6F25E3FCEE0024A2A3 /* ListCurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCurrencyViewController.swift; sourceTree = "<group>"; };
+		96984D6025E44F9300C9DD61 /* ListCurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCurrencyViewModel.swift; sourceTree = "<group>"; };
+		96984D6825E4968B00C9DD61 /* ConversionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionData.swift; sourceTree = "<group>"; };
+		96BE9DDB25E4106A009504CD /* AlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		96BE9DDE25E410A3009504CD /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		96BE9DE425E41115009504CD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		96BE9DEB25E41D24009504CD /* CurrencyServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CurrencyServices.swift; path = BCPchallenge/Services/CurrencyServices.swift; sourceTree = SOURCE_ROOT; };
 		96F59EA725E2F794000563BC /* BCPchallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCPchallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F59EAA25E2F794000563BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96F59EAE25E2F794000563BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +53,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56CACF77D256166A45E9D6A /* Pods_BCPchallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79BED15D5C6BA2E0A2518591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				606E58170237EA7099FA253F /* Pods_BCPchallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96708B1525E3100A00014906 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96F59EAE25E2F794000563BC /* ViewController.swift */,
+				96837C6F25E3FCEE0024A2A3 /* ListCurrencyViewController.swift */,
+				96F59EB025E2F794000563BC /* Main.storyboard */,
+				96837C3C25E35EB10024A2A3 /* CurrencyChangeCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96708B1625E3101300014906 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96BE9DE125E410A8009504CD /* Network */,
+				96708B1C25E35DF600014906 /* Currency.swift */,
+				96984D6825E4968B00C9DD61 /* ConversionData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96837C3C25E35EB10024A2A3 /* CurrencyChangeCell */ = {
+			isa = PBXGroup;
+			children = (
+				96837C3D25E35EE10024A2A3 /* CurrencyChangeCell.swift */,
+				96837C3E25E35EE10024A2A3 /* CurrencyChangeCell.xib */,
+			);
+			path = CurrencyChangeCell;
+			sourceTree = "<group>";
+		};
+		96984D5F25E44F7E00C9DD61 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				96984D6025E44F9300C9DD61 /* ListCurrencyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		96BE9DE125E410A8009504CD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				96BE9DDB25E4106A009504CD /* AlertMessage.swift */,
+				96BE9DDE25E410A3009504CD /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		96BE9DE325E4110B009504CD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				96BE9DE425E41115009504CD /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		96BE9DE825E411F1009504CD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				96BE9DEB25E41D24009504CD /* CurrencyServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		96F59E9E25E2F794000563BC = {
 			isa = PBXGroup;
 			children = (
 				96F59EA925E2F794000563BC /* BCPchallenge */,
 				96F59EA825E2F794000563BC /* Products */,
+				ACDCDFC71F48896A8A6D33AC /* Pods */,
+				79BED15D5C6BA2E0A2518591 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +153,25 @@
 			isa = PBXGroup;
 			children = (
 				96F59EAA25E2F794000563BC /* AppDelegate.swift */,
-				96F59EAE25E2F794000563BC /* ViewController.swift */,
-				96F59EB025E2F794000563BC /* Main.storyboard */,
+				96BE9DE825E411F1009504CD /* Services */,
+				96708B1625E3101300014906 /* Model */,
+				96708B1525E3100A00014906 /* View */,
+				96984D5F25E44F7E00C9DD61 /* ViewModel */,
+				96BE9DE325E4110B009504CD /* Utils */,
 				96F59EB325E2F799000563BC /* Assets.xcassets */,
 				96F59EB525E2F799000563BC /* LaunchScreen.storyboard */,
 				96F59EB825E2F799000563BC /* Info.plist */,
 			);
 			path = BCPchallenge;
+			sourceTree = "<group>";
+		};
+		ACDCDFC71F48896A8A6D33AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11929F7311AF471AF692964A /* Pods-BCPchallenge.debug.xcconfig */,
+				3C6D42E7CFC8396C082AA100 /* Pods-BCPchallenge.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96F59EBB25E2F799000563BC /* Build configuration list for PBXNativeTarget "BCPchallenge" */;
 			buildPhases = (
+				E1DF131B79BF774FC9CDDA82 /* [CP] Check Pods Manifest.lock */,
 				96F59EA325E2F794000563BC /* Sources */,
 				96F59EA425E2F794000563BC /* Frameworks */,
 				96F59EA525E2F794000563BC /* Resources */,
+				A6FF16F497DBBD1C6C8AD04F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96837C4025E35EE10024A2A3 /* CurrencyChangeCell.xib in Resources */,
 				96F59EB725E2F799000563BC /* LaunchScreen.storyboard in Resources */,
 				96F59EB425E2F799000563BC /* Assets.xcassets in Resources */,
 				96F59EB225E2F794000563BC /* Main.storyboard in Resources */,
@@ -129,13 +242,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A6FF16F497DBBD1C6C8AD04F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BCPchallenge/Pods-BCPchallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BCPchallenge/Pods-BCPchallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BCPchallenge/Pods-BCPchallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1DF131B79BF774FC9CDDA82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BCPchallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96F59EA325E2F794000563BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96837C7025E3FCEE0024A2A3 /* ListCurrencyViewController.swift in Sources */,
+				96837C3F25E35EE10024A2A3 /* CurrencyChangeCell.swift in Sources */,
+				96708B1D25E35DF600014906 /* Currency.swift in Sources */,
+				96BE9DEC25E41D24009504CD /* CurrencyServices.swift in Sources */,
 				96F59EAF25E2F794000563BC /* ViewController.swift in Sources */,
 				96F59EAB25E2F794000563BC /* AppDelegate.swift in Sources */,
+				96984D6925E4968B00C9DD61 /* ConversionData.swift in Sources */,
+				96BE9DDF25E410A3009504CD /* NetworkError.swift in Sources */,
+				96BE9DE525E41115009504CD /* Constants.swift in Sources */,
+				96BE9DDC25E4106A009504CD /* AlertMessage.swift in Sources */,
+				96984D6125E44F9300C9DD61 /* ListCurrencyViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +443,7 @@
 		};
 		96F59EBC25E2F799000563BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11929F7311AF471AF692964A /* Pods-BCPchallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,6 +463,7 @@
 		};
 		96F59EBD25E2F799000563BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6D42E7CFC8396C082AA100 /* Pods-BCPchallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
